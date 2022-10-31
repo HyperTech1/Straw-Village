@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.7),
+        rgba(255,255,255,0.3)
+    );
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+}
+.circle1,
+.circle2 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: fixed;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.circle1{
+    top: -0.50px;
+    right: 10%;
+
+}
+.circle2{
+    bottom: 0.50px;
+    left: 10%;
+}
+.user{
+    margin-left: 50%;
+  
+    
+}
+
+.user img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+.link h2{
+    height: 5%;
+    width: 20%;
+    
+}
+
+.link img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.link .price{
+margin-left: 200px;
+top: -100px;
+}
+
+.links{
+    margin-left: 15px;
+}
+
+.Vip img{
+    width: 100px;
+    height: 100px;
+    margin-left: 70%;
+}
+
+.vip .h2{
+    margin-left: 60%;
+}
+
+.link p{
+    margin-left: 34.5%;
+}
